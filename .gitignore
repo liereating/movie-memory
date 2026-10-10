@@ -1,0 +1,19 @@
+# 数据库文件（含用户笔记，不入库）
+*.db
+*.db-journal
+
+# 编译产物
+**/movies-server.exe
+
+# 前端依赖与构建（frontend/.gitignore 已覆盖，这里兜底）
+node_modules
+dist
+
+# 抓取的中间 HTML 页面
+清洗脚本/*.html
+
+# 抓取脚本与原始数据（不上传）
+清洗脚本/
+
+# App 内置影片数据（含外链，公开仓库可见，不上传）
+具体界面/frontend/src/seed/

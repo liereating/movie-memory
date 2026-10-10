@@ -1,0 +1,5 @@
+{
+  "appId": "com.moviedb.app",
+  "appName": "电影详情库",
+  "webDir": "dist"
+}
